@@ -6,13 +6,15 @@ body {
 h1 {
     color: purple;
     text-align: center;
+     font-family: 'Barrio';font-size: 38px;
 }
 
 
 h2 {
 
-    color:pink;
+    color:#bc1476;
     text-align: center;
+    font-family: 'Barrio';font-size: 38px;
 
 }
 
@@ -37,3 +39,17 @@ background-color: rgba(0, 0, 0, 0.2);
     color: purple;
     font-size: 120px;
 }
+.jumbotron p{
+    text-align: right;
+    color: black;
+    font-family: 'Barrio';font-size: 32px;
+}
+
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus{
+    background-color:#6626cc;
+    color:white;
+    font-family: 'Barrio';font-size: 32px;
+}
+a{ font-family: 'Barrio';font-size: 32px;}
+a{color:white;}
