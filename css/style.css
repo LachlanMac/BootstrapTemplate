@@ -1,52 +1,39 @@
+body {
+    background-color: lightblue;
+     background-image: url(../img/BG2NS.png);
+}
 
-.gallery-title
-{
-    font-size: 36px;
-    color: #42B32F;
+h1 {
+    color: purple;
     text-align: center;
-    font-weight: 500;
-    margin-bottom: 70px;
 }
-.gallery-title:after {
-    content: "";
-    position: absolute;
-    width: 7.5%;
-    left: 46.5%;
-    height: 45px;
-    border-bottom: 1px solid #5e5e5e;
-}
-.filter-button
-{
-    font-size: 18px;
-    border: 1px solid #42B32F;
-    border-radius: 5px;
+
+
+h2 {
+
+    color:pink;
     text-align: center;
-    color: #42B32F;
-    margin-bottom: 30px;
 
 }
-.filter-button:hover
-{
-    font-size: 18px;
-    border: 1px solid #42B32F;
-    border-radius: 5px;
-    text-align: center;
-    color: #ffffff;
-    background-color: #42B32F;
 
+p {
+    font-family: verdana;
+    font-size: 20px;
 }
-.btn-default:active .filter-button:active
-{
-    background-color: #42B32F;
+
+.well{
+background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+.jumbotron {
+    margin-bottom: 0px;
     color: white;
-}
+    text-shadow: black 0.3em 0.3em 0.3em;
+    font-family: 'Barrio';font-size: 22px;
 
-.port-image
-{
-    width: 100%;
 }
-
-.gallery_product
-{
-    margin-bottom: 30px;
+.jumbotron h1{
+    color: purple;
+    font-size: 120px;
 }

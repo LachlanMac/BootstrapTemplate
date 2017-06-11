@@ -11,9 +11,14 @@
 
 		<title></title>
 			<link rel="stylesheet" href="css/bootstrap.min.css">
+			<link href='https://fonts.googleapis.com/css?family=Barrio' rel='stylesheet'>
 			<link rel="stylesheet" href="css/style.css">
-			<script type="text/javascript" src="js/gallery.js"></script>
+			
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
+
+			<script src="js/gallery.js"></script>
+			<script src="js/bootstrap.min.js"></script>
 	</head>
 <body onload="loadImages()">
 
@@ -21,11 +26,11 @@
 
 
 
-<div class="container">
+<div class="container-fluid">
 
 	<div class="page-header">
   		<h1> Artist Website Template <small> by Lachlan McCallum</small></h1>
-	</div>
+	</div> <!-- HEADER DIV CLOSE-->
 
 		<ul class="nav nav-pills nav-justified"> 
 		  <li role="presentation"><a href="index.html">Home</a></li>
@@ -36,35 +41,33 @@
 		  
 		</ul>
 
-
-
-
 	<div class="jumbotron">
 		<h1>JUMOBOTRON</h1>
 		<p>Jumbotron Information</p>
-	</div>
+	</div> <!-- JUMBOTRON DIV CLOSE-->
 
+	 <h2>Gallery</h2>
+
+
+	 <p> THIS IS A TEST OF JAVASCRIPT STUFFFFS </p>
 
 	<div class="row">
-        <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <h1> Gallery</h1>
+        <div class="gallery col-lg-12 col-md-12 col-sm-12">
+           
+        	 <div id="images"> <!-- PLACE HOLDER TO PUT IMAGES--></div>
+
         </div>
-     
-       <br/>
-        		
-       <div id="images">
-
-       <p> STUFF SHOULD BE HERE </p>
-
-
-       </div>
+     		
+      
     	
       
 
-        </div>
+        </div> <!-- ROW DIV CLOSE-->
+
+	
 		
 
 
-</div>
+</div> <!-- CONTAINER DIV CLOSE-->
 </body>
 </html>
