@@ -1,6 +1,6 @@
 body {
     background-color: lightblue;
-     background-image: url(../img/BG2NS.png);
+     background-image: url(../img/pinkdust.png);
 }
 
 h1 {
@@ -28,22 +28,7 @@ background-color: rgba(0, 0, 0, 0.2);
 }
 
 
-.jumbotron {
-    margin-bottom: 0px;
-    color: white;
-    text-shadow: black 0.3em 0.3em 0.3em;
-    font-family: 'Barrio';font-size: 22px;
 
-}
-.jumbotron h1{
-    color: purple;
-    font-size: 120px;
-}
-.jumbotron p{
-    text-align: right;
-    color: black;
-    font-family: 'Barrio';font-size: 32px;
-}
 
 
 .nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus{
@@ -53,3 +38,81 @@ background-color: rgba(0, 0, 0, 0.2);
 }
 a{ font-family: 'Barrio';font-size: 32px;}
 a{color:white;}
+
+
+
+
+
+
+
+
+
+
+
+
+.jumbotron {
+    margin-bottom: 0px;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+    font-family: 'Barrio';
+    background-image: url(../img/dark_geometric.png);
+    background-image: url(../img/dark_geometric.png);
+    padding-top: 0px;
+    padding-bottom:0px; 
+   border: 5px;
+    border-color: #bc1476;
+    border-style: groove;
+
+
+
+}
+.jumbotron h1{
+        color: purple;
+}
+.jumbotron p{
+        text-align: right;
+        color: white;
+        font-family: 'Barrio';
+}
+
+.jumbotron {
+
+
+}
+
+@media all and (max-width: 1920px) { 
+    .jumbotron {
+        font-size: 22px;
+    }
+    .jumbotron h1{
+        font-size: 100px;
+    }
+    .jumbotron p{
+        font-size: 32px;
+    }
+}
+@media all and (max-width: 992px) { /* screen size until 500px */
+    .jumbotron {
+      
+        font-size: 16px;
+    }
+    .jumbotron h1{
+        font-size: 58px;
+    }
+    .jumbotron p{
+       font-size: 24px;
+    }
+}
+@media all and (max-width: 768px) { /* screen size until 500px */
+    .jumbotron {
+        font-size: 12px;
+    }
+    .jumbotron h1{
+        font-size: 32px;
+    }
+    .jumbotron p{
+        font-size: 18px;
+    }
+}
+
+ 

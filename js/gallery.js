@@ -26,7 +26,7 @@ function loadImages() {
 
    var divElement = document.createElement("div");
 
-   divElement.setAttribute("class", "gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-12 well");
+   divElement.setAttribute("class", "gallery_product col-lg-2 col-md-3 col-sm-4 col-xs-6 well");
 
 
    var imgElement = document.createElement("img");
@@ -37,8 +37,8 @@ function loadImages() {
    imgElement.setAttribute("style", "outline-color: blue");
 
 
-  imgElement.style.height = '256px'
-   imgElement.style.width = 'auto'
+  imgElement.style.height = '128px'
+  imgElement.style.width = 'auto'
  
  
    divElement.appendChild(imgElement);
